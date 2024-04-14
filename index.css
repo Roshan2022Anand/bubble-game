@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+main{
+    width: 600px;
+    height: 700px;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid black;
+}
+#score-board{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+#score-board>div{
+    width: 20%;
+    height: 20px;
+    border-radius: 3px;
+    background-color: green;
+}
+#bubbles{
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#bubbles > div{
+    width: 35px;
+    height: 35px;
+    background-color: green;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+    /* flex-grow: 1; */
+}
